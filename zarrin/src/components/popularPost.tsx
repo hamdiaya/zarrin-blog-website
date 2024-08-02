@@ -55,7 +55,7 @@ const popularPost = () => {
           
       <div className='mt-10 grid md:grid-cols-3 sm:grid-cols-2 gap-10 '>
       {blogs.map(blog=>{
-              return <BlogCard id={blog.id} imgUrl={blog.imgUrl} title={blog.title} type={blog.type} date={blog.date} content={blog.content} />
+              return <BlogCard key={blog.id} id={blog.id} imgUrl={blog.imgUrl} title={blog.title} type={blog.type} date={blog.date} content={blog.content} />
       })}
       
       </div>

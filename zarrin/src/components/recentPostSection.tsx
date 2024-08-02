@@ -62,6 +62,7 @@ const recentPostSection = () => {
         {blogs.map((blog) => {
           return (
             <BlogCard
+            key={blog.id}
               id={blog.id}
               imgUrl={blog.imgUrl}
               title={blog.title}

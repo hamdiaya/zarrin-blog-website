@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { LuMenu } from "react-icons/lu";
 import Link from "next/link";
-const mobileNavBar = () => {
+const MobileNavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -35,4 +35,4 @@ const mobileNavBar = () => {
   );
 };
 
-export default mobileNavBar;
+export default MobileNavBar;

@@ -3,7 +3,7 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import PopularPost from "@/components/popularPost";
-const page = () => {
+const Page = () => {
   const blogs = [
     {
       id: "1",
@@ -103,4 +103,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
